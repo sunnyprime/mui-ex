@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createMuiTheme,ThemeProvider} from '@material-ui/core/styles'
 
-const theme = createMuiTheme({
+// const theme = createMuiTheme({
 //   palette: {
 //     type:"dark",
 //    primary:{
@@ -18,13 +18,13 @@ const theme = createMuiTheme({
 //     main:"#FFDDFD"
 //   }
 // }
-})
+// })
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
+    {/* <ThemeProvider theme={theme}> */}
       <App />
-    </ThemeProvider>
+    {/* </ThemeProvider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
